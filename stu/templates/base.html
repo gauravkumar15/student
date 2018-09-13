@@ -1,0 +1,13 @@
+{% load staticfiles %}
+<html>
+    <body>
+        <head>
+            <link rel="stylesheet" href="{% static 'home.css' %}">
+        </head>
+        <h1>IGNOU</h1>
+        <div>
+        {% block content %}
+        {% endblock %}
+        </div>
+    </body>
+</html>
